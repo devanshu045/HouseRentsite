@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ <script src="./script.js"></script>
+ <script src="https://kit.fontawesome.com/7fa5eeac77.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+
+
+    <div class="Dream-house ">
+        <div class="header">
+            <div class="logo"><img src="images\first-section\dummy-logo-5b (1).png" alt="logo-company"></div>
+            <div class="header-features">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Properties</li>
+                    <li>Agent</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <button class="contact-number">
+                    <img src="images\first-section\PikPng.com_contact-icons-png_1157139.png" alt="photo-call">
+                    <div class="contact-container">
+                        <span class="phone-name">call-now</span>
+                        <p class="phone-number">987-654-3210</p>
+                    </div>
+                </button>
+
+            </div>
+            <span class="material-symbols-outlined " onclick="show()">
+                menu
+            </span>
+            <div class="mobile-option" id="showit">
+                <span class="material-symbols-outlined" id="cross" onclick="closeit()">
+                    close
+                    </span>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Properties</li>
+                    <li>Agent</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Dream-home-searchs">
+            <div class="Dream-house-heading">
+                <h1>Find Your Dream Home</h1>
+                <p>Your best investment opportunity won't fit into a safety deposite box, but you can live in it</p>
+            </div>
+            <div class="options-home">
+                <div class="options-btn">
+                    <button class="Buy" onclick="changeco1()" id="buyit">Buy</button>
+                    <button class="Rent" onclick="changeco2()" id="rentit"> Rent</button>
+                    <button class="Investment" onclick="changeco3()" id="investit" >investments</button>
+                </div>
+                <div class="option-info">
+                    <form action="" class="form-options">
+                        <input type="text" name="city" class="enter-city" id="enter-city-name"
+                            placeholder="Type City or Area  1km ">
+                        <select name="typef" id="first-select-option">
+                            <option value="">Select Type</option>
+                            <option value="">yyyy</option>
+                            <option value="">xxx</option>
+                        </select>
+                        <select name="types" id="sec-select-option">
+                            <option value="">Select Category</option>
+                            <option value="">yyyy</option>
+                            <option value="">xxx</option>
+                        </select>
+                        <div class="btn-menu"><button class="option-menu"><img src="images\first-section\Layer 8.png"
+                                    alt="menu-icon"></button></div>
+                        <divj class="btn-search"> <button class="search-options"> <img src="images\first-section\Layer 10.png" alt="">
+                                Search</button>
+                </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <!-- section-sec -->
+
+
+
+    <div class="About-Us reveal">
+        <div class="About-Us-container">
+            <div class="About-images">
+                <div class="About-image-container">
+                    <img class="About-imge-first" src="images\second-section\Layer 41.png" alt="">
+                    <img class="About-imge-sec" src="images\second-section\22.png" alt="">
+                </div>
+                <div class="view-properties-info">
+                    <h2>$2235.000</h2>
+                    <p>2 Living Room 4 Bed Rooms , 3 Bath Room,2 Garages</p>
+                    <button class="view-properties-btn">View Properties</button>
+                </div>
+            </div>
+
+
+            <div class="About-info">
+                <h4>About us ______</h4>
+                <h1>Super Delux Mansion of <span> Lorem ipsum.Inc </span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <div class="facilities-container">
+                    <div class="safe-life"><img src="images\second-section\Layer 43.png" alt="">Safe Life</div>
+                    <div class="Office"><img src="images\second-section\Layer 45.png" alt="">Office</div>
+                    <div class="Apartment"><img src="images\second-section\Layer 46.png" alt="">Apartment</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-third -->
+
+    <div class="section-third-main reveal">
+        <div class="latest-properties">
+            <div class="latest-properties-heading">
+                <h3>Browse Hot Offers</h3>
+                <h1>Latest Properties</h1>
+            </div>
+
+            <div class="properties-container">
+                <div class="properties-item-first">
+                    <div class="con-hover-ingo">
+                        <img src="images\section-third\pool-resort-maldives-1.png" alt="">
+
+                        <div class="hover-info">
+                            <div class="hot-sale">
+                                <button>Hot</button><button>For Sale</button>
+                            </div>
+                            <div class="star">
+                                <div class="rating">
+                                    <button class="rating-btn">4.5</button>
+                                    <div ->
+                                        <img src="images\section-third\img_530208 (1).png" alt="">
+                                        <p>2 comments</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="save">Save</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-frist">
+                        <h3>Good LIfe Property Ltd</h3>
+                        <div><img src="images\section-third\Layer 47.png" alt="location">301 Falls BIvd,Quincy MA 2169
+                        </div>
+                    </div>
+                    <div class="info-sec">
+                        <div class="info-sec-data"> <span>4</span> <img src="images\section-third\Layer 48.png" alt=""></div>
+                        <div class="info-sec-data"> <span>3</span><img src="images\section-third\Layer 49.png" alt=""> </div>
+                        <div class="info-sec-data"> <span>1</span><img src="images\section-third\Layer 50.png" alt=""> </div>
+                    </div>
+                    <div class="info-third">
+                        <img src="images\section-third\Layer 52.png" alt="">
+                        <p>Divid Smith <span>Manager</span> </p>
+                        <h3>$22,500/m</h3>
+                    </div>
+                </div>
+
+
+                <div class="properties-item-first">
+                    <div class="con-hover-ingo">
+                        <img src="images\section-third\pool-resort-maldives-1.png" alt="">
+                        <div class="hover-info">
+                            <div class="hot-sale">
+                                <button>Hot</button><button>For Sale</button>
+                            </div>
+                            <div class="star">
+                                <div class="rating">
+                                    <button class="rating-btn">4.5</button>
+                                    <div ->
+                                        <img src="images\section-third\img_530208 (1).png" alt="">
+                                        <p>2 comments</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="save">Save</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-frist">
+                        <h3>Good LIfe Property Ltd</h3>
+                        <div><img src="images\section-third\Layer 47.png" alt="location">301 Falls BIvd,Quincy MA 2169
+                        </div>
+                    </div>
+                    <div class="info-sec">
+                        <div class="info-sec-data"> <span>4</span> <img src="images\section-third\Layer 48.png" alt=""></div>
+                        <div class="info-sec-data"> <span>3</span><img src="images\section-third\Layer 49.png" alt=""> </div>
+                        <div class="info-sec-data"> <span>1</span><img src="images\section-third\Layer 50.png" alt=""> </div>
+                    </div>
+                    <div class="info-third">
+                        <img src="images\section-third\Layer 52.png" alt="">
+                        <p>Divid Smith <span>Manager</span> </p>
+                        <h3>$22,500/m</h3>
+                    </div>
+                </div>
+                <div class="properties-item-first">
+                    <div class="con-hover-ingo">
+                        <img src="images\section-third\pool-resort-maldives-1.png" alt="">
+                        <div class="hover-info">
+                            <div class="hot-sale">
+                                <button>Hot</button><button>For Sale</button>
+                            </div>
+                            <div class="star">
+                                <div class="rating">
+                                    <button class="rating-btn">4.5</button>
+                                    <div ->
+                                        <img src="images\section-third\img_530208 (1).png" alt="">
+                                        <p>2 comments</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="save">Save</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-frist">
+                        <h3>Good LIfe Property Ltd</h3>
+                        <div><img src="images\section-third\Layer 47.png" alt="location">301 Falls BIvd,Quincy MA 2169
+
+                        </div>
+                    </div>
+                    <div class="info-sec">
+                        <div class="info-sec-data"> <span>4</span> <img src="images\section-third\Layer 48.png" alt=""></div>
+                        <div class="info-sec-data"> <span>3</span><img src="images\section-third\Layer 49.png" alt=""> </div>
+                        <div class="info-sec-data"> <span>1</span><img src="images\section-third\Layer 50.png" alt=""> </div>
+                    </div>
+                    <div class="info-third">
+                        <img src="images\section-third\Layer 52.png" alt="">
+                        <p>Divid Smith <span>Manager</span> </p>
+                        <h3>$22,500/m</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-fourth -->
+
+
+    <div class="section-fourth-main reveal">
+        <div class="Real-Estate">
+            <div class="Real-Estate-Heading">
+                <h4>What Are You Looking</h4>
+                <h1>Providing the Best Real Estate Service</h1>
+                <button class="Real-btn">Search Property</button>
+            </div>
+            <img class="Real-center-image" src="images\fourth-section\providing_one_shape_1.png" alt="">
+
+            <div class="Real-Estate-images">
+            
+                    
+                    <div class="first-image-container">
+                        <div class="image-container" >
+                            <img id="laptopview" src="images\fourth-section\flat (1).png" alt="">
+                            <img id="phoneview" src="images\fourth-section\Layer 18 copy.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>flat</p>
+                        </div>
+                    </div>
+                    <div class="first-image-container">
+                        <div class="image-container">
+                            <img  src="images\fourth-section\Layer 19.png" alt="">
+
+                        </div>
+                        <div class="image-name">
+                            <p>Houses</p>
+                        </div>
+                    </div>
+                    <div class="first-image-container">
+                        <div class="image-container">
+                            <img src="images\fourth-section\Layer 20.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>Rooms</p>
+                        </div>
+                    </div>
+                    <div class="first-image-container">
+                        <div class="image-container">
+                            <img src="images\fourth-section\Layer 21.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>plot</p>
+                        </div>
+                    </div>
+                    <div class="first-image-container">
+                        <div class="image-container">
+                            <img src="images\fourth-section\Layer 18 copy.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>Commercial Premises</p>
+                        </div>
+                    </div>
+                    <!-- <div class="first-image-container">
+                        <div class="image-container">
+                            <img src="images\fourth-section\city-hall.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>Halls and Warehoues</p>
+                        </div>
+                    </div> -->
+
+                    <div class="first-image-container">
+                        <div class="image-container">
+                            <img src="images\fourth-section\garage.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>Garages</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="first-image-container">
+                        <div class="image-container">
+                            <img src="images\fourth-section\save-money.png" alt="">
+                        </div>
+                        <div class="image-name">
+                            <p>Incestments</p>
+                        </div>
+                    </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section-five -->
+
+    <div class="section-five-main reveal">
+        <div class="News">
+            <div class="news-heading">
+                <h3>Blog</h3>
+                <h1>Latest News</h1>
+            </div>
+            <div class="news-container">
+                <div class="first-News">
+                    <div class="news-image">
+                        <img src="images\five\Layer 35.png" alt="">
+                    </div>
+                    <div class="news-date">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <p> 05 Jan,2021 </p>
+                        <span class="material-symbols-outlined">
+                            sell
+                        </span>
+                        <p> Residential </p>
+                    </div>
+                    <div class="news-info">
+                        <p>Skills That You Can Learn In The Reakl Estate Market</p>
+                    </div>
+                    <div class="News-posted">
+                        <div class="News-try">
+                            <img src="images\five\man.png" alt="">
+                            <p> <span>Posted By</span>
+                                Adam Smith
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first-News">
+                    <div class="news-image">
+                        <img src="images\five\Layer 35.png" alt="">
+                    </div>
+                    <div class="news-date">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <p> 05 Jan,2021 </p>
+                        <span class="material-symbols-outlined">
+                            sell
+                        </span>
+                        <p> Residential </p>
+                    </div>
+                    <div class="news-info">
+                        <p>Skills That You Can Learn In The Reakl Estate Market</p>
+                    </div>
+                    <div class="News-posted">
+                        <div class="News-try">
+                            <img src="images\five\man.png" alt="">
+                            <p> <span>Posted By</span>
+                                Adam Smith
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first-News">
+                    <div class="news-image">
+                        <img src="images\five\Layer 35.png" alt="">
+                    </div>
+                    <div class="news-date">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <p> 05 Jan,2021 </p>
+                        <span class="material-symbols-outlined">
+                            sell
+                        </span>
+                        <p> Residential </p>
+                    </div>
+                    <div class="news-info">
+                        <p>Skills That You Can Learn In The Reakl Estate Market</p>
+                    </div>
+                    <div class="News-posted">
+                        <div class="News-try">
+                            <img src="images\five\man.png" alt="">
+                            <p> <span>Posted By</span>
+                                Adam Smith
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="footer-main reveal">
+        <div class="footer">
+
+            <div class="footer-first-logo">
+                <div class="footer-heading">
+                    <img src="images\footer\dummy-logo-5b (1).png" alt="">
+                </div>
+
+                <p>About us</p>
+                <p>Help Center</p>
+                <p>Contact - Customer Servie</p>
+                <p>Contact - Sales Department</p>
+                <p>Price list</p>
+                <p>Terms of cooperation</p>
+                <p>privancy policy</p>
+                <p>Cookie settings</p>
+                <p>Press office</p>
+                <p>Blog</p>
+
+            </div>
+
+            <div class="footer-services">
+                <h3>Services and tools</h3>
+                <p>advertisement</p>
+                <p>Tools for offices</p>
+                <p>Contract templates</p>
+                <p>Sell with Otodom</p>
+                <p>Blog</p>
+            </div>
+
+            <div class="footer-map">
+                <h3>Site Map</h3>
+                <p>Category</p>
+                <p>Map of the village</p>
+                <p>Articles and tips</p>
+                <p>Database of companies</p>
+                <p>Career</p>
+            </div>
+
+            <div class="footer-call">
+                <h3>Call Us Now</h3>
+                <h1>987-654-3210</h1>
+                <p>Best Property Services</p>
+                <div class="social-ids">
+                    <div class="icons-div">
+                        <i class="fa-brands fa-square-facebook fa-xl comcol"></i>
+                    </div>
+
+
+                    <div class="icons-div">  <i class="fa-brands fa-instagram fa-xl comcol"></i></div>
+                    <div class="icons-div"> <i class="fa-brands fa-twitter fa-xl comcol"></i></div>
+                    <div class="icons-div"><i class="fa-brands fa-pinterest fa-xl comcol"></i></div>
+                    <div class="icons-div">  <i class="fa-brands fa-google-plus-g fa-xl comcol"></i></div>
+                   
+                       
+                    
+                        
+                     
+                        
+                   
+                        
+                    
+                        
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="rights">
+        <h4>@Lorem ipsum. All rights reserved. Terms of use and Privacy Policy</h4>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <div class="images-container">
+    <div class="Real-images-name">
+        <img src="images\fourth-section\flat (1).png" alt="">
+
+    </div>
+    <div class="Real-images-name">
+        <img src="images\fourth-section\Layer 19.png" alt="">
+
+    </div>
+    <div class="Real-images-name">
+        <img src="images\fourth-section\Layer 20.png" alt="">
+
+    </div>
+    <div class="Real-images-name">
+        <img src="images\fourth-section\Layer 21.png" alt="">
+
+    </div>
+
+</div>
+
+<div class="Real-image-name">
+    <p>float</p>
+    <p>Houses</p>
+    <p>Rooms</p>
+    <p>plot</p>
+</div>
+ -->
+
+<!-- 
+<div class="Image-container-first">
+    <div class="images-container">
+        <div class="Real-images-name">
+            <img src="images\fourth-section\Layer 18 copy.png" alt="">
+        </div>
+        <div class="Real-images-name">
+            <img src="images\fourth-section\city-hall.png" alt="">
+
+        </div>
+        <div class="Real-images-name">
+            <img src="images\fourth-section\garage.png" alt="">
+        </div>
+        <div class="Real-images-name">
+            <img src="images\fourth-section\save-money.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="Real-image-name">
+        <p>Commercial Premises</p>
+        <p>Halls and Warehouses</p>
+        <p>Garages</p>
+        <p>Investments</p>
+    </div>
+
+
+</div>
+.Image-container-first{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2vh;
+}
+.images-container{
+    display: flex;
+    gap: 5vh;
+}
+.Real-images-name{
+    width: 22%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+background-color: #ffffff;
+}
+.Real-image-name{
+    display: flex;
+    gap: 5vh;
+}
+
+.Real-image-name p{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Raleway";
+}
+
+
+
+
+-->
